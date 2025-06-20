@@ -30,7 +30,7 @@ applications:
             value: -f ./values.yaml
     destination:
       server: https://kubernetes.default.svc
-      namespace: velero
+      namespace: argocd
     syncPolicy:
       automated:
         prune: false
